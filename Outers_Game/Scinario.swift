@@ -10,18 +10,18 @@ import SwiftUI
 import RealityKit
 
 struct ARViewContainer2: UIViewRepresentable {
-   
+    
     func makeUIView(context: Context) -> UIView {
         let arView = ARView(frame: .zero)
-//         Load the "Opject" scene from the "dumu" Reality File
+//                 Load the "Opject" scene from the "dumu" Reality File
         let anchor = try! Dumu.loadScene()
-//        // Add the Opject anchor to the scene
+//                 Add the Opject anchor to the scene
         arView.scene.anchors.append(anchor)
-     return arView
+        return arView
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
-//         Optional: update the view if necessary
+//                 Optional: update the view if necessary
     }
 }
 struct Scinario : View {
@@ -32,7 +32,7 @@ struct Scinario : View {
     @State var timerRunning = true
     @State private var textswitch = false
     
-    //    The publish(every:tolerance:on:in:options:) operator creates a Timer.TimerPublisher, which is a ConnectablePublisher. As a result, subscribers don’t receive any values until after a call to connect(). For convenience when working with a single subscriber, the autoconnect() operator performs the connect() call when attached to by the subscriber.
+//   The publish(every:tolerance:on:in:options:) operator creates a Timer.TimerPublisher, which is a ConnectablePublisher. As a result, subscribers don’t receive any values until after a call to connect(). For convenience when working with a single subscriber, the autoconnect() operator performs the connect() call when attached to by the subscriber.
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View {
@@ -83,7 +83,7 @@ struct Scinario : View {
                 ZStack{
                     VStack {
                         if countdownTimer > 0{
-                          
+                            
                             Text("\(countdownTimer)")
                                 .padding()
                                 .onReceive(timer) { _ in
@@ -99,9 +99,6 @@ struct Scinario : View {
                             //                            For the timer font
                                 .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
                         }
-                           
-                        
-                        
                         else{
                             Text((textswitch ? "  " : "Go "))
                                 .font(Font.custom("RussoOne-Regular", size: 128))
@@ -126,7 +123,6 @@ struct Scinario_Previews : PreviewProvider {
         Scinario()
     }
 }
-
 
 // Add Thick border to a the words itself
 struct GlowBorder: ViewModifier {
