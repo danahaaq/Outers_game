@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E658F09729991B6D00328664 /* ObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F09629991B6D00328664 /* ObjectView.swift */; };
 		E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233D29928A950040BA8F /* Outers_GameApp.swift */; };
 		E6CC234029928A950040BA8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233F29928A950040BA8F /* ContentView.swift */; };
 		E6CC234229928A970040BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CC234129928A970040BA8F /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E658F09629991B6D00328664 /* ObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectView.swift; sourceTree = "<group>"; };
 		E6CC233A29928A950040BA8F /* Outers_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outers_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CC233D29928A950040BA8F /* Outers_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outers_GameApp.swift; sourceTree = "<group>"; };
 		E6CC233F29928A950040BA8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				E6CC233D29928A950040BA8F /* Outers_GameApp.swift */,
 				E6CC233F29928A950040BA8F /* ContentView.swift */,
 				E6CC236D2995189A0040BA8F /* Scinario.swift */,
+				E658F09629991B6D00328664 /* ObjectView.swift */,
 				E6CC237D299531B20040BA8F /* RussoOne-Regular.ttf */,
 				E6CC236F299518F50040BA8F /* dumu.rcproject */,
 				E6CC234129928A970040BA8F /* Assets.xcassets */,
@@ -271,6 +274,7 @@
 			files = (
 				E6CC234029928A950040BA8F /* ContentView.swift in Sources */,
 				E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */,
+				E658F09729991B6D00328664 /* ObjectView.swift in Sources */,
 				E6CC236E2995189A0040BA8F /* Scinario.swift in Sources */,
 				E6CC2370299518F50040BA8F /* dumu.rcproject in Sources */,
 			);

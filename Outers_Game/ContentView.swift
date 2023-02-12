@@ -23,11 +23,7 @@ struct ARViewContainer: UIViewRepresentable {
         // Allow the coachingOverly to start the begain at first
         coachingOverly.setActive(true, animated: true)
         arView.addSubview(coachingOverly)
-        // Load the "Opject" scene from the "dumu" Reality File
-        let anchor = try! Dumu.loadScene()
-        // Add the Opject anchor to the scene
-        arView.scene.anchors.append(anchor)
-        
+
         return arView
     }
     
@@ -52,7 +48,7 @@ struct ContentView : View {
                 
             }
         }.onAppear{
-            DispatchQueue.main.asyncAfter(deadline: .now()+5.0){
+            DispatchQueue.main.asyncAfter(deadline: .now()+3.0){
                 withAnimation{
                     one1 = true
                 }
