@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6971FE8F2998DF8A00BD695F /* clouds.json in Resources */ = {isa = PBXBuildFile; fileRef = 6971FE8E2998DF8A00BD695F /* clouds.json */; };
+		6971FE912998E12D00BD695F /* clouds2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6971FE902998E12D00BD695F /* clouds2.json */; };
+		6971FE932998E2DE00BD695F /* clouds3.json in Resources */ = {isa = PBXBuildFile; fileRef = 6971FE922998E2DE00BD695F /* clouds3.json */; };
 		6984723D2992952B0059F1AE /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6984723C2992952B0059F1AE /* Levels.swift */; };
+		6984724029929C260059F1AE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 6984723F29929C260059F1AE /* Lottie */; };
+		6984724229929C7E0059F1AE /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6984724129929C7E0059F1AE /* LottieView.swift */; };
+		698472442993A02C0059F1AE /* GameCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698472432993A02C0059F1AE /* GameCenter.swift */; };
+		69B2CCCE299971660038F4F1 /* LeadersTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B2CCCD299971660038F4F1 /* LeadersTileView.swift */; };
+		69B2CCD029998FB30038F4F1 /* Russo_One in Resources */ = {isa = PBXBuildFile; fileRef = 69B2CCCF29998FB30038F4F1 /* Russo_One */; };
 		E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233D29928A950040BA8F /* Outers_GameApp.swift */; };
 		E6CC234029928A950040BA8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233F29928A950040BA8F /* ContentView.swift */; };
 		E6CC234229928A970040BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CC234129928A970040BA8F /* Assets.xcassets */; };
@@ -35,7 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6971FE8E2998DF8A00BD695F /* clouds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clouds.json; sourceTree = "<group>"; };
+		6971FE902998E12D00BD695F /* clouds2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clouds2.json; sourceTree = "<group>"; };
+		6971FE922998E2DE00BD695F /* clouds3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clouds3.json; sourceTree = "<group>"; };
 		6984723C2992952B0059F1AE /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		6984724129929C7E0059F1AE /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		698472432993A02C0059F1AE /* GameCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenter.swift; sourceTree = "<group>"; };
+		69B2CCCD299971660038F4F1 /* LeadersTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadersTileView.swift; sourceTree = "<group>"; };
+		69B2CCCF29998FB30038F4F1 /* Russo_One */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Russo_One; sourceTree = "<group>"; };
+		69B2CCD1299990FB0038F4F1 /* Outers-Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Outers-Game-Info.plist"; sourceTree = SOURCE_ROOT; };
+		69B2CCD2299992EC0038F4F1 /* RussoOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RussoOne.ttf; sourceTree = "<group>"; };
 		E6CC233A29928A950040BA8F /* Outers_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outers_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CC233D29928A950040BA8F /* Outers_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outers_GameApp.swift; sourceTree = "<group>"; };
 		E6CC233F29928A950040BA8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6984724029929C260059F1AE /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,9 +114,18 @@
 		E6CC233C29928A950040BA8F /* Outers_Game */ = {
 			isa = PBXGroup;
 			children = (
+				69B2CCD1299990FB0038F4F1 /* Outers-Game-Info.plist */,
 				E6CC233D29928A950040BA8F /* Outers_GameApp.swift */,
 				E6CC233F29928A950040BA8F /* ContentView.swift */,
 				6984723C2992952B0059F1AE /* Levels.swift */,
+				698472432993A02C0059F1AE /* GameCenter.swift */,
+				69B2CCCD299971660038F4F1 /* LeadersTileView.swift */,
+				6971FE922998E2DE00BD695F /* clouds3.json */,
+				6971FE8E2998DF8A00BD695F /* clouds.json */,
+				6971FE902998E12D00BD695F /* clouds2.json */,
+				69B2CCD2299992EC0038F4F1 /* RussoOne.ttf */,
+				69B2CCCF29998FB30038F4F1 /* Russo_One */,
+				6984724129929C7E0059F1AE /* LottieView.swift */,
 				E6CC234129928A970040BA8F /* Assets.xcassets */,
 				E6CC234329928A970040BA8F /* Preview Content */,
 			);
@@ -146,6 +173,9 @@
 			dependencies = (
 			);
 			name = Outers_Game;
+			packageProductDependencies = (
+				6984723F29929C260059F1AE /* Lottie */,
+			);
 			productName = Outers_Game;
 			productReference = E6CC233A29928A950040BA8F /* Outers_Game.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +248,9 @@
 				Base,
 			);
 			mainGroup = E6CC233129928A950040BA8F;
+			packageReferences = (
+				6984723E29929C260059F1AE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = E6CC233B29928A950040BA8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6971FE8F2998DF8A00BD695F /* clouds.json in Resources */,
+				6971FE912998E12D00BD695F /* clouds2.json in Resources */,
+				6971FE932998E2DE00BD695F /* clouds3.json in Resources */,
 				E6CC234529928A970040BA8F /* Preview Assets.xcassets in Resources */,
+				69B2CCD029998FB30038F4F1 /* Russo_One in Resources */,
 				E6CC234229928A970040BA8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,8 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6984723D2992952B0059F1AE /* Levels.swift in Sources */,
+				69B2CCCE299971660038F4F1 /* LeadersTileView.swift in Sources */,
 				E6CC234029928A950040BA8F /* ContentView.swift in Sources */,
 				E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */,
+				698472442993A02C0059F1AE /* GameCenter.swift in Sources */,
+				6984724229929C7E0059F1AE /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +464,13 @@
 				DEVELOPMENT_TEAM = 7RZ5V4846A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Outers-Game-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,11 +495,13 @@
 				DEVELOPMENT_TEAM = 7RZ5V4846A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Outers-Game-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,6 +631,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6984723E29929C260059F1AE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 3.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6984723F29929C260059F1AE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6984723E29929C260059F1AE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E6CC233229928A950040BA8F /* Project object */;
 }
