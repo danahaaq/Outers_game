@@ -11,7 +11,8 @@ import SwiftUI
 struct Outers_GameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LevelTwo()
         }
+        
     }
 }
