@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1605A20229A0551B00BD1369 /* LinearTimer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A20129A0551B00BD1369 /* LinearTimer1.swift */; };
+		1673C2A72993BFE900B0BDF8 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1673C2A62993BFE900B0BDF8 /* LottieView.swift */; };
+		1673C2AA2993C0D000B0BDF8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1673C2A92993C0D000B0BDF8 /* Lottie */; };
+		1673C2AE2993C1FA00B0BDF8 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1673C2AD2993C1FA00B0BDF8 /* StartPage.swift */; };
+		16B24090299910A50080B874 /* SoundsCodeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B2408F299910A50080B874 /* SoundsCodeFile.swift */; };
+		16B24093299925B30080B874 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16B24092299925B30080B874 /* wind.mp3 */; };
 		E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233D29928A950040BA8F /* Outers_GameApp.swift */; };
 		E6CC234029928A950040BA8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233F29928A950040BA8F /* ContentView.swift */; };
 		E6CC234229928A970040BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CC234129928A970040BA8F /* Assets.xcassets */; };
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1605A20129A0551B00BD1369 /* LinearTimer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearTimer1.swift; sourceTree = "<group>"; };
+		1673C2A62993BFE900B0BDF8 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		1673C2AD2993C1FA00B0BDF8 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		16B2408F299910A50080B874 /* SoundsCodeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsCodeFile.swift; sourceTree = "<group>"; };
+		16B24092299925B30080B874 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
 		E6CC233A29928A950040BA8F /* Outers_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outers_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6CC233D29928A950040BA8F /* Outers_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outers_GameApp.swift; sourceTree = "<group>"; };
 		E6CC233F29928A950040BA8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1673C2AA2993C0D000B0BDF8 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +83,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B2408E299426BB0080B874 /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1673C2A62993BFE900B0BDF8 /* LottieView.swift */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		16B24091299925A30080B874 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				16B24092299925B30080B874 /* wind.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		E6CC233129928A950040BA8F = {
 			isa = PBXGroup;
 			children = (
+				1605A20129A0551B00BD1369 /* LinearTimer1.swift */,
 				E6CC233C29928A950040BA8F /* Outers_Game */,
 				E6CC234D29928A970040BA8F /* Outers_GameTests */,
 				E6CC235729928A970040BA8F /* Outers_GameUITests */,
@@ -95,8 +124,12 @@
 			isa = PBXGroup;
 			children = (
 				E6CC233D29928A950040BA8F /* Outers_GameApp.swift */,
+				1673C2AD2993C1FA00B0BDF8 /* StartPage.swift */,
 				E6CC233F29928A950040BA8F /* ContentView.swift */,
+				16B2408F299910A50080B874 /* SoundsCodeFile.swift */,
 				E6CC234129928A970040BA8F /* Assets.xcassets */,
+				16B24091299925A30080B874 /* Sounds */,
+				16B2408E299426BB0080B874 /* LottieFiles */,
 				E6CC234329928A970040BA8F /* Preview Content */,
 			);
 			path = Outers_Game;
@@ -143,6 +176,9 @@
 			dependencies = (
 			);
 			name = Outers_Game;
+			packageProductDependencies = (
+				1673C2A92993C0D000B0BDF8 /* Lottie */,
+			);
 			productName = Outers_Game;
 			productReference = E6CC233A29928A950040BA8F /* Outers_Game.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +251,9 @@
 				Base,
 			);
 			mainGroup = E6CC233129928A950040BA8F;
+			packageReferences = (
+				1673C2A82993C0D000B0BDF8 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = E6CC233B29928A950040BA8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +272,7 @@
 			files = (
 				E6CC234529928A970040BA8F /* Preview Assets.xcassets in Resources */,
 				E6CC234229928A970040BA8F /* Assets.xcassets in Resources */,
+				16B24093299925B30080B874 /* wind.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1605A20229A0551B00BD1369 /* LinearTimer1.swift in Sources */,
+				1673C2AE2993C1FA00B0BDF8 /* StartPage.swift in Sources */,
+				16B24090299910A50080B874 /* SoundsCodeFile.swift in Sources */,
 				E6CC234029928A950040BA8F /* ContentView.swift in Sources */,
 				E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */,
+				1673C2A72993BFE900B0BDF8 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Outers_Game/Preview Content\"";
-				DEVELOPMENT_TEAM = 7RZ5V4846A;
+				DEVELOPMENT_TEAM = UNY43L6L35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -446,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Outers_Game/Preview Content\"";
-				DEVELOPMENT_TEAM = 7RZ5V4846A;
+				DEVELOPMENT_TEAM = UNY43L6L35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -583,6 +627,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1673C2A82993C0D000B0BDF8 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 3.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1673C2A92993C0D000B0BDF8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1673C2A82993C0D000B0BDF8 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E6CC233229928A950040BA8F /* Project object */;
 }
