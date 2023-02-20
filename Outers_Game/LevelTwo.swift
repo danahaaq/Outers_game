@@ -51,7 +51,6 @@ struct LevelTwo: View {
 struct LevelTwo_Previews : PreviewProvider {
     static var previews: some View {
         LevelTwo()
-//            timeRemaining: .constant(10))
     }
 }
 

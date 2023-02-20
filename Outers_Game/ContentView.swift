@@ -9,6 +9,7 @@ import SwiftUI
 import RealityKit
 import ARKit
 
+// coaching 
 struct ARViewContainer: UIViewRepresentable {
     
     func makeUIView(context: Context) -> UIView {
@@ -21,6 +22,7 @@ struct ARViewContainer: UIViewRepresentable {
         coachingOverly.goal = .horizontalPlane
         coachingOverly.session = session
         // Allow the coachingOverly to start the begain at first
+//        ARCoachingOverlayView().setActive(false, animated: false)
         coachingOverly.setActive(true, animated: true)
         arView.addSubview(coachingOverly)
 
@@ -41,9 +43,8 @@ struct ContentView : View {
             
             if one1 == false{
                 ARViewContainer().edgesIgnoringSafeArea(.all)
-                
+           
             }else if one1 == true{
-                
                 Scinario()
                 
             }
