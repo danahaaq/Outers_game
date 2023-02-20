@@ -56,7 +56,7 @@ struct TimerView: View {
     
     var body: some View {
         ZStack{
-            ARViewContainer()
+            ARViewContainer7()
                 .ignoresSafeArea()
             
             ZStack{

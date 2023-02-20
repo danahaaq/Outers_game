@@ -24,9 +24,10 @@ struct ScinarioLevel2 : View {
     
     var body: some View{
         ZStack{
-            ARViewContainer()
+            ARViewContainer7()
                 .ignoresSafeArea()
             if ispressed2{
+               
                 StartTimer()
             }  else {
                 ZStack{
