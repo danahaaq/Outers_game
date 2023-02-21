@@ -66,19 +66,21 @@ struct StartTimer: View {
                                         timerRunning = false
                                     }
                                 }
-                            
-                                .font(Font.custom("RussoOne-Regular", size: 128))
+                                .font(.system(size: 130 , weight: .heavy, design: .rounded))
+//                                .font(Font.custom("RussoOne-Regular", size: 128))
                                 .foregroundColor(.white)
                             //                            For the timer font
-                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
+//                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
+                                .glowBorder(color: Color(.black), lineWidth: 5)
                             
                         }
                         else{
                             Text((textswitch ? "  " : "Go "))
-                                .font(Font.custom("RussoOne-Regular", size: 128))
+                                .font(.system(size: 130 , weight: .heavy, design: .rounded))
                                 .foregroundColor(.white)
                             //                            For the timer font
-                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
+//                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
+                                .glowBorder(color: Color(.black), lineWidth: 5)
                             
                         }}
                     

@@ -128,7 +128,7 @@ struct TimerView: View {
                 }
                 .padding()
             }
-            .padding(.top,690)
+            .padding(.top,670)
             
         }
         
