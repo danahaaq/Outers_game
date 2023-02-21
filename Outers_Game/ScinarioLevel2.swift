@@ -19,7 +19,7 @@ struct ScinarioLevel2 : View {
     @State var timerRunning = true
     @State private var textswitch = false
     
-    //   The publish(every:tolerance:on:in:options:) operator creates a Timer.TimerPublisher, which is a ConnectablePublisher. As a result, subscribers don’t receive any values until after a call to connect(). For convenience when working with a single subscriber, the autoconnect() operator performs the connect() call when attached to by the subscriber.
+//   The publish(every:tolerance:on:in:options:) operator creates a Timer.TimerPublisher, which is a ConnectablePublisher. As a result, subscribers don’t receive any values until after a call to connect(). For convenience when working with a single subscriber, the autoconnect() operator performs the connect() call when attached to by the subscriber.
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View{
@@ -27,7 +27,7 @@ struct ScinarioLevel2 : View {
             ARViewContainer7()
                 .ignoresSafeArea()
             if ispressed2{
-               
+                
                 StartTimer()
             }  else {
                 ZStack{
@@ -67,59 +67,17 @@ struct ScinarioLevel2 : View {
                             }
                     }
                 }.padding(.top,576)
-//            }  else {
-//                
-//                ZStack{
-//                    VStack {
-//                        if countdownTimer > 0{
-//                            
-//                            Text("\(countdownTimer)")
-//                                .padding()
-//                                .onReceive(timer) { _ in
-//                                    if countdownTimer > 0 && timerRunning {
-//                                        countdownTimer -= 1
-//                                    } else {
-//                                        //
-//                                        timerRunning = false
-//                                    }
-//                                }
-//                            
-//                                .font(Font.custom("RussoOne-Regular", size: 128))
-//                                .foregroundColor(.white)
-//                            //                            For the timer font
-//                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
-//                        }
-//                        else{
-//                            Text((textswitch ? "  " : "Go "))
-//                                .font(Font.custom("RussoOne-Regular", size: 128))
-//                                .foregroundColor(.white)
-//                            //                            For the timer font
-//                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
-//                            
-//                            
-                            
-                                .onAppear{
-                                    DispatchQueue.main.asyncAfter(deadline: .now()+1.0){
-                                        self.textswitch.toggle()
-                                        
-                                    }
-                                    
-                                    
-//                                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.5){
-//                                        withAnimation{
-//                                            self.TimerOn = true
-//                                        }
-//                                }
+                    .onAppear{
+                        DispatchQueue.main.asyncAfter(deadline: .now()+1.0){
+                            self.textswitch.toggle()
                             
                         }
                     }
-                    
-                }
             }
+            
         }
-//    }
-//}
-
+    }
+}
 struct ScinarioLevel2_Previews : PreviewProvider {
     static var previews: some View {
         ScinarioLevel2()

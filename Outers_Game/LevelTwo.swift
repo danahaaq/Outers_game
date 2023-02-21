@@ -11,7 +11,7 @@ import UIKit
 
 struct ARViewContainer4: UIViewRepresentable {
     @Binding var timeRemaining : Int
-    let anchor = try! Dumu.loadScene()
+    let anchor = try! Key1.loadScene()
     
     func makeUIView(context: Context) -> ARView {
         let arView = ARView(frame: .zero)
@@ -20,17 +20,17 @@ struct ARViewContainer4: UIViewRepresentable {
     }
     func updateUIView(_ uiView: ARView, context: Context) {
 //     Optional: update the view if necessary
-        if timeRemaining == 10{
+        if timeRemaining == 0{
             uiView.scene.addAnchor(anchor)
         }
-        else if timeRemaining <= 60{
+        else if timeRemaining <= 10{
             uiView.scene.removeAnchor(anchor)
         }
         
     }
 }
 struct LevelTwo: View {
-    @State var timeRemaining = 60
+    @State var timeRemaining = 10
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     var body: some View {

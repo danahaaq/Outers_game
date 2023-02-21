@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1605A24629A2C2D100BD1369 /* StartTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A24529A2C2D100BD1369 /* StartTimer.swift */; };
 		E65180AB29A26DED005D71F1 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65180AA29A26DED005D71F1 /* TimerView.swift */; };
+		E65180AF29A4E105005D71F1 /* Key1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E65180AE29A4E105005D71F1 /* Key1.rcproject */; };
 		E658F0E729A2219C00328664 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0E629A2219C00328664 /* LevelTwo.swift */; };
 		E658F0F529A2647F00328664 /* CoachingLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0F429A2647F00328664 /* CoachingLevel2.swift */; };
 		E658F0F729A264E500328664 /* ScinarioLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0F629A264E500328664 /* ScinarioLevel2.swift */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		1605A24529A2C2D100BD1369 /* StartTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTimer.swift; sourceTree = "<group>"; };
 		E65180AA29A26DED005D71F1 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		E65180AE29A4E105005D71F1 /* Key1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Key1.rcproject; sourceTree = "<group>"; };
 		E658F0E629A2219C00328664 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
 		E658F0F429A2647F00328664 /* CoachingLevel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingLevel2.swift; sourceTree = "<group>"; };
 		E658F0F629A264E500328664 /* ScinarioLevel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScinarioLevel2.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				E65180AA29A26DED005D71F1 /* TimerView.swift */,
 				E658F0E629A2219C00328664 /* LevelTwo.swift */,
 				E6CC237D299531B20040BA8F /* RussoOne-Regular.ttf */,
+				E65180AE29A4E105005D71F1 /* Key1.rcproject */,
 				E6CC236F299518F50040BA8F /* dumu.rcproject */,
 				E6CC234129928A970040BA8F /* Assets.xcassets */,
 				E6CC234329928A970040BA8F /* Preview Content */,
@@ -288,6 +291,7 @@
 				E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */,
 				E658F0E729A2219C00328664 /* LevelTwo.swift in Sources */,
 				1605A24629A2C2D100BD1369 /* StartTimer.swift in Sources */,
+				E65180AF29A4E105005D71F1 /* Key1.rcproject in Sources */,
 				E658F0F529A2647F00328664 /* CoachingLevel2.swift in Sources */,
 				E6CC236E2995189A0040BA8F /* Scinario.swift in Sources */,
 				E6CC2370299518F50040BA8F /* dumu.rcproject in Sources */,
@@ -451,7 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Outers_Game/Preview Content\"";
-				DEVELOPMENT_TEAM = UNY43L6L35;
+				DEVELOPMENT_TEAM = 7RZ5V4846A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Outers-Game-Info.plist";
@@ -483,7 +487,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Outers_Game/Preview Content\"";
-				DEVELOPMENT_TEAM = UNY43L6L35;
+				DEVELOPMENT_TEAM = 7RZ5V4846A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Outers-Game-Info.plist";
