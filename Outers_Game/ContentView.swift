@@ -39,16 +39,6 @@ struct ARViewContainer7: UIViewRepresentable {
     func makeUIView(context: Context) -> UIView {
         let arView = ARView(frame: .zero)
         let session = arView.session
-        
-//        let coachingOverly = ARCoachingOverlayView()
-//        // this is an intger bit mask that determines how the reciever resized itself.
-//        coachingOverly.autoresizingMask = [.flexibleWidth,.flexibleHeight]
-//        coachingOverly.goal = .horizontalPlane
-//        coachingOverly.session = session
-//        // Allow the coachingOverly to start the begain at first
-////        ARCoachingOverlayView().setActive(false, animated: false)
-//        coachingOverly.setActive(true, animated: true)
-//        arView.addSubview(coachingOverly)
 
         return arView
     }

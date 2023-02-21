@@ -54,26 +54,6 @@ struct ScinarioLevel2 : View {
                            
                         FadeInOutView1(text: "⚠️ Be Fast it dispears ⚠️", startTime: 4.0)
                             .offset(y:-77)
-                            //here comment
-//                        ZStack{
-//                            Text("! Warning !")
-//
-//                                .offset(y:-30)
-//                                .foregroundColor(.black)
-//                                .font(.system(size: 18 , weight: .heavy, design: .rounded))
-//                                .multilineTextAlignment(.center)
-//
-//                            Text("it's a magical Key Will disapear ")
-//
-//                                .frame(width: 320,height: 250)
-//                                .foregroundColor(.black)
-//                                .font(.system(size: 18 , weight: .heavy, design: .rounded))
-//                                .multilineTextAlignment(.center)
-//                                .offset(y:-10)
-//                        }
-//
-//                        .padding(.top,-70)
-//
                     }
                 }
                 ZStack(){
@@ -96,51 +76,6 @@ struct ScinarioLevel2 : View {
                         
                     }
                 }.padding(.top,400)
-                //            }  else {
-                //
-                //                ZStack{
-                //                    VStack {
-                //                        if countdownTimer > 0{
-                //
-                //                            Text("\(countdownTimer)")
-                //                                .padding()
-                //                                .onReceive(timer) { _ in
-                //                                    if countdownTimer > 0 && timerRunning {
-                //                                        countdownTimer -= 1
-                //                                    } else {
-                //                                        //
-                //                                        timerRunning = false
-                //                                    }
-                //                                }
-                //
-                //                                .font(Font.custom("RussoOne-Regular", size: 128))
-                //                                .foregroundColor(.white)
-                //                            //                            For the timer font
-                //                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
-                //                        }
-                //                        else{
-                //                            Text((textswitch ? "  " : "Go "))
-                //                                .font(Font.custom("RussoOne-Regular", size: 128))
-                //                                .foregroundColor(.white)
-                //                            //                            For the timer font
-                //                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
-                //
-                //
-                //
-                //                                .onAppear{
-                //                                    DispatchQueue.main.asyncAfter(deadline: .now()+1.0){
-                //                                        self.textswitch.toggle()
-                //
-                //                                    }
-                
-                
-                //                                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.5){
-                //                                        withAnimation{
-                //                                            self.TimerOn = true
-                //                                        }
-                //                                }
-                
-                //                        }
             }
             
         }

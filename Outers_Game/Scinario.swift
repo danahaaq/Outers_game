@@ -2,7 +2,7 @@
 //  Scinario.swift
 //  Outers_Game
 //
-//  Created by Aldanah Alqbbani on 18/07/1444 AH.
+//  Created by Aldanah Alqbbani on 01/08/1444 AH.
 //
 
 import Foundation

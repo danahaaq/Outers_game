@@ -11,7 +11,7 @@ import SwiftUI
 struct Outers_GameApp: App {
     var body: some Scene {
         WindowGroup {
-            CoachingLevel2()
+            ScinarioLevel2()
         }
         
     }
