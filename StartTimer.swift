@@ -50,10 +50,16 @@ struct StartTimer: View {
             ARViewContainer7()
                 .ignoresSafeArea()
             if isActive {
-                TimerView()
+                CircularTimer()
             }  else {
                 ZStack{
+                    
+                        Rectangle()
+                            .fill(.black)
+                            .opacity(0.3)
+                            .frame(width: 500 , height:900)
                     VStack {
+                        
                         if countdownTimer > 0{
                             
                             Text("\(countdownTimer)")
@@ -67,22 +73,23 @@ struct StartTimer: View {
                                     }
                                 }
                                 .font(.system(size: 130 , weight: .heavy, design: .rounded))
-//                                .font(Font.custom("RussoOne-Regular", size: 128))
+                            //                                .font(Font.custom("RussoOne-Regular", size: 128))
                                 .foregroundColor(.white)
                             //                            For the timer font
-//                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
-                                .glowBorder(color: Color(.black), lineWidth: 5)
+                            //                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
+                                .glowBorder(color: Color(.black), lineWidth: 3)
                             
                         }
                         else{
-                            Text((textswitch ? "  " : "Go "))
-                                .font(.system(size: 130 , weight: .heavy, design: .rounded))
-                                .foregroundColor(.white)
-                            //                            For the timer font
-//                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
-                                .glowBorder(color: Color(.black), lineWidth: 5)
-                            
-                        }}
+                           
+                                Text((textswitch ? "  " : "Go "))
+                                    .font(.system(size: 130 , weight: .heavy, design: .rounded))
+                                    .foregroundColor(.white)
+                                //                            For the timer font
+                                //                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
+                                    .glowBorder(color: Color(.black), lineWidth: 3)
+                                  
+                            }}
                     
                     .onAppear{
                         

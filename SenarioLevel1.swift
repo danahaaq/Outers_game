@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import RealityKit
 
-struct ScinarioLevel2 : View {
+struct SenarioLevel1 : View {
     @State var TimerOn : Bool = false
     @State var TimerOn2 : Bool = false
     @State var ispressed2 : Bool = false
@@ -29,7 +29,7 @@ struct ScinarioLevel2 : View {
                 .ignoresSafeArea()
             if ispressed2{
                 
-                StartTimer()
+                CircularTimer()
             }  else {
                 ZStack{
                     Rectangle()
@@ -37,43 +37,22 @@ struct ScinarioLevel2 : View {
                         .foregroundColor(.white)
                         .cornerRadius(30)
                         .opacity(0.7)
-                    Image("father")
+                    Image("Mother")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 180, height: 250)
-                        .offset(y:75)
+                        .frame(width: 200, height: 300)
+                        .offset(y:73)
                     VStack{
-                        FadeInOutView(text: "Could you Help Me Find", startTime: 0.1)
+                        FadeInOutView(text: "Could you Help Me", startTime: 0.1)
                             .offset(y:-88)
-                        FadeInOutView(text: "My KEY?", startTime: 1.5)
+                        FadeInOutView(text: "Find My Kid TOYS ?", startTime: 1.5)
                             .offset(y:-85)
-//                            .frame(width: 300,height: 100)
-                           
-                        FadeInOutView(text: "I'm Running Late To work!", startTime: 2.5)
+
+                        FadeInOutView1(text: "⚠️ Harry Up before He Cries ⚠️", startTime: 4.0)
                             .offset(y:-80)
-                           
-                        FadeInOutView1(text: "⚠️ Be Fast it dispears ⚠️", startTime: 4.0)
-                            .offset(y:-77)
-                            //here comment
-//                        ZStack{
-//                            Text("! Warning !")
-//
-//                                .offset(y:-30)
-//                                .foregroundColor(.black)
-//                                .font(.system(size: 18 , weight: .heavy, design: .rounded))
-//                                .multilineTextAlignment(.center)
-//
-//                            Text("it's a magical Key Will disapear ")
-//
-//                                .frame(width: 320,height: 250)
-//                                .foregroundColor(.black)
-//                                .font(.system(size: 18 , weight: .heavy, design: .rounded))
-//                                .multilineTextAlignment(.center)
-//                                .offset(y:-10)
-//                        }
-//
-//                        .padding(.top,-70)
-//
+                            
+
+
                     }
                 }
                 ZStack(){
@@ -147,7 +126,7 @@ struct ScinarioLevel2 : View {
     }
 }
 
-struct FadeInOutView: View {
+struct FadeInOutView2: View {
     
     @State var characters: Array<String.Element>
     @State var opacity: Double = 0
@@ -188,7 +167,7 @@ struct FadeInOutView: View {
 }
 
 
-struct FadeInOutView1: View {
+struct FadeInOutView3: View {
     
     @State var characters: Array<String.Element>
     @State var opacity: Double = 0
@@ -234,12 +213,8 @@ struct FadeInOutView1: View {
 
 
 
-
-//    }
-//}
-
-struct ScinarioLevel2_Previews : PreviewProvider {
+struct SenarioLevel1_Previews: PreviewProvider {
     static var previews: some View {
-        ScinarioLevel2()
+        SenarioLevel1()
     }
 }

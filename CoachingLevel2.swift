@@ -17,7 +17,7 @@ struct CoachingLevel2 : View {
                 ARViewContainer().edgesIgnoringSafeArea(.all)
             }
             else if one1 == true{
-                ScinarioLevel2()
+                SenarioLevel1()
                 
             }else if one2 == true{
                 TimerView()
