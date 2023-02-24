@@ -5,6 +5,7 @@
 //  Created by Aldanah Alqbbani on 28/07/1444 AH.
 //
 
+
 import Foundation
 import SwiftUI
 import RealityKit
@@ -25,13 +26,15 @@ struct ScinarioLevel2 : View {
     
     var body: some View{
         ZStack{
-            ARViewContainer7()
-                .ignoresSafeArea()
+     
             if ispressed2{
                 
-                StartTimer()
+              TimerView2()
             }  else {
+              
                 ZStack{
+                    ARViewContainer7()
+                        .ignoresSafeArea()
                     Rectangle()
                         .frame(width: 280,height: 300)
                         .foregroundColor(.white)
