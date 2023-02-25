@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import RealityKit
 
-struct ScinarioLevel2 : View {
+struct FatherSenario : View {
     @State var TimerOn : Bool = false
     @State var TimerOn2 : Bool = false
     @State var ispressed2 : Bool = false
@@ -96,51 +96,7 @@ struct ScinarioLevel2 : View {
                         
                     }
                 }.padding(.top,400)
-                //            }  else {
-                //
-                //                ZStack{
-                //                    VStack {
-                //                        if countdownTimer > 0{
-                //
-                //                            Text("\(countdownTimer)")
-                //                                .padding()
-                //                                .onReceive(timer) { _ in
-                //                                    if countdownTimer > 0 && timerRunning {
-                //                                        countdownTimer -= 1
-                //                                    } else {
-                //                                        //
-                //                                        timerRunning = false
-                //                                    }
-                //                                }
-                //
-                //                                .font(Font.custom("RussoOne-Regular", size: 128))
-                //                                .foregroundColor(.white)
-                //                            //                            For the timer font
-                //                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
-                //                        }
-                //                        else{
-                //                            Text((textswitch ? "  " : "Go "))
-                //                                .font(Font.custom("RussoOne-Regular", size: 128))
-                //                                .foregroundColor(.white)
-                //                            //                            For the timer font
-                //                                .glowBorder(color: Color(red: 0.345, green: 0.59, blue: 0.878), lineWidth: 5)
-                //
-                //
-                //
-                //                                .onAppear{
-                //                                    DispatchQueue.main.asyncAfter(deadline: .now()+1.0){
-                //                                        self.textswitch.toggle()
-                //
-                //                                    }
-                
-                
-                //                                    DispatchQueue.main.asyncAfter(deadline: .now() + 5.5){
-                //                                        withAnimation{
-                //                                            self.TimerOn = true
-                //                                        }
-                //                                }
-                
-                //                        }
+                      
             }
             
         }
@@ -204,7 +160,7 @@ struct FadeInOutView1: View {
             ForEach(0..<characters.count) { num in
                 Text(String(self.characters[num]))
                     .foregroundColor(.blue)
-                    .font(.system(size: 15  , weight: .heavy, design: .rounded))
+                    .font(.system(size: 20  , weight: .heavy, design: .rounded))
 //                    .frame(width: 300 , height: 500)
                     .multilineTextAlignment(.center)
                     .scaleEffect(opacity)
@@ -238,8 +194,8 @@ struct FadeInOutView1: View {
 //    }
 //}
 
-struct ScinarioLevel2_Previews : PreviewProvider {
+struct FatherSenario_Previews : PreviewProvider {
     static var previews: some View {
-        ScinarioLevel2()
+        FatherSenario()
     }
 }

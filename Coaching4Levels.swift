@@ -8,7 +8,7 @@ import Foundation
 import SwiftUI
 import RealityKit
 
-struct CoachingLevel2 : View {
+struct Coaching4Levels : View {
     @State var one1 = false
     @State var one2 = false
     var body: some View{
@@ -17,12 +17,10 @@ struct CoachingLevel2 : View {
                 ARViewContainer().edgesIgnoringSafeArea(.all)
             }
             else if one1 == true{
-                SenarioLevel1()
-                
-            }else if one2 == true{
-                TimerView()
-                
+                FatherSenario()
+    
             }
+
             
         }
                 .onAppear{
@@ -36,8 +34,8 @@ struct CoachingLevel2 : View {
         }
     }
 }
-struct CoachingLevel2_Previews : PreviewProvider {
+struct Coaching4Levels_Previews : PreviewProvider {
     static var previews: some View {
-        CoachingLevel2()
+        Coaching4Levels()
     }
 }

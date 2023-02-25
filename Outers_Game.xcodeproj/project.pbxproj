@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		1605A24629A2C2D100BD1369 /* StartTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A24529A2C2D100BD1369 /* StartTimer.swift */; };
 		1605A28629A4F51300BD1369 /* CircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A28529A4F51300BD1369 /* CircularTimer.swift */; };
-		1605A28829A4FBE000BD1369 /* SenarioLevel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A28729A4FBE000BD1369 /* SenarioLevel1.swift */; };
+		1605A28829A4FBE000BD1369 /* MotherSenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A28729A4FBE000BD1369 /* MotherSenario.swift */; };
+		16B8DB4B29A9333E001A1754 /* LosePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB4A29A9333E001A1754 /* LosePopUp.swift */; };
+		16B8DB4D29A94DA1001A1754 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB4C29A94DA1001A1754 /* HomePage.swift */; };
+		16B8DB4F29A94E82001A1754 /* SoundCodeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB4E29A94E82001A1754 /* SoundCodeFile.swift */; };
+		16B8DB5129A94F32001A1754 /* SpalshScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB5029A94F32001A1754 /* SpalshScreen.swift */; };
+		16B8DB5329A98416001A1754 /* WhoAreWe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB5229A98416001A1754 /* WhoAreWe.swift */; };
+		16B8DB5529A9965C001A1754 /* LosePopUpM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB5429A9965C001A1754 /* LosePopUpM.swift */; };
 		E65180AB29A26DED005D71F1 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65180AA29A26DED005D71F1 /* TimerView.swift */; };
 		E658F0E729A2219C00328664 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0E629A2219C00328664 /* LevelTwo.swift */; };
-		E658F0F529A2647F00328664 /* CoachingLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0F429A2647F00328664 /* CoachingLevel2.swift */; };
-		E658F0F729A264E500328664 /* ScinarioLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0F629A264E500328664 /* ScinarioLevel2.swift */; };
-		E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233D29928A950040BA8F /* Outers_GameApp.swift */; };
+		E658F0F529A2647F00328664 /* Coaching4Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0F429A2647F00328664 /* Coaching4Levels.swift */; };
+		E658F0F729A264E500328664 /* FatherSenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0F629A264E500328664 /* FatherSenario.swift */; };
+		E6CC233E29928A950040BA8F /* Familia_APP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233D29928A950040BA8F /* Familia_APP.swift */; };
 		E6CC234029928A950040BA8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CC233F29928A950040BA8F /* ContentView.swift */; };
 		E6CC234229928A970040BA8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CC234129928A970040BA8F /* Assets.xcassets */; };
 		E6CC234529928A970040BA8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CC234429928A970040BA8F /* Preview Assets.xcassets */; };
@@ -46,13 +52,19 @@
 /* Begin PBXFileReference section */
 		1605A24529A2C2D100BD1369 /* StartTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTimer.swift; sourceTree = "<group>"; };
 		1605A28529A4F51300BD1369 /* CircularTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimer.swift; sourceTree = "<group>"; };
-		1605A28729A4FBE000BD1369 /* SenarioLevel1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenarioLevel1.swift; sourceTree = "<group>"; };
+		1605A28729A4FBE000BD1369 /* MotherSenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherSenario.swift; sourceTree = "<group>"; };
+		16B8DB4A29A9333E001A1754 /* LosePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LosePopUp.swift; path = ../../Downloads/Outers_game/LosePopUp.swift; sourceTree = "<group>"; };
+		16B8DB4C29A94DA1001A1754 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePage.swift; path = ../../Downloads/Outers_game/HomePage.swift; sourceTree = "<group>"; };
+		16B8DB4E29A94E82001A1754 /* SoundCodeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundCodeFile.swift; path = ../../Downloads/Outers_game/SoundCodeFile.swift; sourceTree = "<group>"; };
+		16B8DB5029A94F32001A1754 /* SpalshScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpalshScreen.swift; path = ../../Downloads/Outers_game/SpalshScreen.swift; sourceTree = "<group>"; };
+		16B8DB5229A98416001A1754 /* WhoAreWe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WhoAreWe.swift; path = ../../Downloads/Outers_game/WhoAreWe.swift; sourceTree = "<group>"; };
+		16B8DB5429A9965C001A1754 /* LosePopUpM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LosePopUpM.swift; path = ../../Downloads/Outers_game/LosePopUpM.swift; sourceTree = "<group>"; };
 		E65180AA29A26DED005D71F1 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		E658F0E629A2219C00328664 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
-		E658F0F429A2647F00328664 /* CoachingLevel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachingLevel2.swift; sourceTree = "<group>"; };
-		E658F0F629A264E500328664 /* ScinarioLevel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScinarioLevel2.swift; sourceTree = "<group>"; };
+		E658F0F429A2647F00328664 /* Coaching4Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coaching4Levels.swift; sourceTree = "<group>"; };
+		E658F0F629A264E500328664 /* FatherSenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatherSenario.swift; sourceTree = "<group>"; };
 		E6CC233A29928A950040BA8F /* Outers_Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outers_Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6CC233D29928A950040BA8F /* Outers_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outers_GameApp.swift; sourceTree = "<group>"; };
+		E6CC233D29928A950040BA8F /* Familia_APP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Familia_APP.swift; sourceTree = "<group>"; };
 		E6CC233F29928A950040BA8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6CC234129928A970040BA8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6CC234429928A970040BA8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,15 +107,21 @@
 		E6CC233129928A950040BA8F = {
 			isa = PBXGroup;
 			children = (
-				1605A28729A4FBE000BD1369 /* SenarioLevel1.swift */,
+				16B8DB5429A9965C001A1754 /* LosePopUpM.swift */,
+				16B8DB5229A98416001A1754 /* WhoAreWe.swift */,
+				16B8DB5029A94F32001A1754 /* SpalshScreen.swift */,
+				16B8DB4C29A94DA1001A1754 /* HomePage.swift */,
+				16B8DB4E29A94E82001A1754 /* SoundCodeFile.swift */,
+				16B8DB4A29A9333E001A1754 /* LosePopUp.swift */,
+				1605A28729A4FBE000BD1369 /* MotherSenario.swift */,
 				1605A28529A4F51300BD1369 /* CircularTimer.swift */,
-				E658F0F629A264E500328664 /* ScinarioLevel2.swift */,
+				E658F0F629A264E500328664 /* FatherSenario.swift */,
 				E65180AA29A26DED005D71F1 /* TimerView.swift */,
 				E6CC236D2995189A0040BA8F /* Scinario.swift */,
 				1605A24529A2C2D100BD1369 /* StartTimer.swift */,
 				E6CC233F29928A950040BA8F /* ContentView.swift */,
-				E6CC233D29928A950040BA8F /* Outers_GameApp.swift */,
-				E658F0F429A2647F00328664 /* CoachingLevel2.swift */,
+				E6CC233D29928A950040BA8F /* Familia_APP.swift */,
+				E658F0F429A2647F00328664 /* Coaching4Levels.swift */,
 				E6CC237D299531B20040BA8F /* RussoOne-Regular.ttf */,
 				E6CC234129928A970040BA8F /* Assets.xcassets */,
 				E6CC233C29928A950040BA8F /* Outers_Game */,
@@ -291,16 +309,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6CC234029928A950040BA8F /* ContentView.swift in Sources */,
-				E6CC233E29928A950040BA8F /* Outers_GameApp.swift in Sources */,
+				E6CC233E29928A950040BA8F /* Familia_APP.swift in Sources */,
 				1605A28629A4F51300BD1369 /* CircularTimer.swift in Sources */,
 				E658F0E729A2219C00328664 /* LevelTwo.swift in Sources */,
+				16B8DB5529A9965C001A1754 /* LosePopUpM.swift in Sources */,
 				1605A24629A2C2D100BD1369 /* StartTimer.swift in Sources */,
-				E658F0F529A2647F00328664 /* CoachingLevel2.swift in Sources */,
+				E658F0F529A2647F00328664 /* Coaching4Levels.swift in Sources */,
+				16B8DB4D29A94DA1001A1754 /* HomePage.swift in Sources */,
 				E6CC236E2995189A0040BA8F /* Scinario.swift in Sources */,
 				E6CC2370299518F50040BA8F /* dumu.rcproject in Sources */,
-				1605A28829A4FBE000BD1369 /* SenarioLevel1.swift in Sources */,
+				1605A28829A4FBE000BD1369 /* MotherSenario.swift in Sources */,
+				16B8DB5129A94F32001A1754 /* SpalshScreen.swift in Sources */,
+				16B8DB5329A98416001A1754 /* WhoAreWe.swift in Sources */,
+				16B8DB4F29A94E82001A1754 /* SoundCodeFile.swift in Sources */,
+				16B8DB4B29A9333E001A1754 /* LosePopUp.swift in Sources */,
 				E65180AB29A26DED005D71F1 /* TimerView.swift in Sources */,
-				E658F0F729A264E500328664 /* ScinarioLevel2.swift in Sources */,
+				E658F0F729A264E500328664 /* FatherSenario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

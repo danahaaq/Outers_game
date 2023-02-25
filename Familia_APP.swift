@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Outers_GameApp: App {
+struct Familia_APP: App {
     var body: some Scene {
         WindowGroup {
-            CoachingLevel2()
+            SplashScreen()
         }
         
     }

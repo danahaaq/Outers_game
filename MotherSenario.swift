@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import RealityKit
 
-struct SenarioLevel1 : View {
+struct MotherSenario : View {
     @State var TimerOn : Bool = false
     @State var TimerOn2 : Bool = false
     @State var ispressed2 : Bool = false
@@ -43,12 +43,12 @@ struct SenarioLevel1 : View {
                         .frame(width: 200, height: 300)
                         .offset(y:73)
                     VStack{
-                        FadeInOutView(text: "Could you Help Me", startTime: 0.1)
-                            .offset(y:-88)
-                        FadeInOutView(text: "Find My Kid TOYS ?", startTime: 1.5)
+                        FadeInOutView2(text: "Could you Help Me", startTime: 0.1)
+                            .offset(y:-90)
+                        FadeInOutView2(text: "Find My Kid TOYS ?", startTime: 1.5)
                             .offset(y:-85)
 
-                        FadeInOutView1(text: "⚠️ Harry Up before He Cries ⚠️", startTime: 4.0)
+                        FadeInOutView3(text: "⚠️ Harry Up before He Cries ⚠️", startTime: 4.0)
                             .offset(y:-80)
                             
 
@@ -142,7 +142,7 @@ struct FadeInOutView2: View {
             ForEach(0..<characters.count) { num in
                 Text(String(self.characters[num]))
                     .foregroundColor(.black)
-                    .font(.system(size: 20  , weight: .heavy, design: .rounded))
+                    .font(.system(size: 23  , weight: .heavy, design: .rounded))
 //                    .frame(width: 300 , height: 500)
                     .multilineTextAlignment(.center)
                     .scaleEffect(opacity)
@@ -183,7 +183,7 @@ struct FadeInOutView3: View {
             ForEach(0..<characters.count) { num in
                 Text(String(self.characters[num]))
                     .foregroundColor(.blue)
-                    .font(.system(size: 15  , weight: .heavy, design: .rounded))
+                    .font(.system(size: 16  , weight: .heavy, design: .rounded))
 //                    .frame(width: 300 , height: 500)
                     .multilineTextAlignment(.center)
                     .scaleEffect(opacity)
@@ -213,8 +213,8 @@ struct FadeInOutView3: View {
 
 
 
-struct SenarioLevel1_Previews: PreviewProvider {
+struct MotherSenario_Previews: PreviewProvider {
     static var previews: some View {
-        SenarioLevel1()
+        MotherSenario()
     }
 }

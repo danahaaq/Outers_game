@@ -10,30 +10,6 @@ import SwiftUI
 import RealityKit
 import ARKit
 
-// coaching
-//struct ARViewContainer1 : UIViewRepresentable {
-//
-//    func makeUIView(context: Context) -> UIView {
-//        let arView = ARView(frame: .zero)
-//        let session = arView.session
-//
-//        let coachingOverly = ARCoachingOverlayView()
-//        // this is an intger bit mask that determines how the reciever resized itself.
-//        coachingOverly.autoresizingMask = [.flexibleWidth,.flexibleHeight]
-//        coachingOverly.goal = .horizontalPlane
-//        coachingOverly.session = session
-//        // Allow the coachingOverly to start the begain at first
-//        ARCoachingOverlayView().setActive(false, animated: false)
-////        coachingOverly.setActive(false, animated: false)
-//        arView.addSubview(coachingOverly)
-//
-//        return arView
-//    }
-//
-//    func updateUIView(_ uiView: UIView, context: Context) {
-//        // Optional: update the view if necessary
-//    }
-//}
 
 struct StartTimer: View {
     @State var countdownTimer = 3
@@ -101,9 +77,8 @@ struct StartTimer: View {
                         
                     }
                 }
-                
-                
-                
+         
+                    
                 
             }
         }

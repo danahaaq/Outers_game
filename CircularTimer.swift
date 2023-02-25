@@ -12,42 +12,72 @@
             .autoconnect()
          
         struct CircularTimer: View {
-             
+            @State var ispressed2 : Bool = false
             @State var counter: Int = 0
             var countTo: Int = 10
              
             var body: some View {
-                VStack{
-                    ZStack{
-
-                        RoundedRectangle(cornerRadius: 60)
-                            .fill(Color.black)
-                            .opacity(0.5)
-                            .frame(width: 350, height: 50)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 60).trim(from:0, to: progress())
-                                    .stroke(
-                                        style: StrokeStyle(
-                                            lineWidth: 15,
-                                            lineCap: .round,
-                                            lineJoin:.round
-                                        )
-                                    )
-                                    .foregroundColor(
-                                        (completed() ? Color.red : Color.blue)
-                                    ).animation(
-                                        .linear(duration: 1)))
-                              
-                         
-                        Clock(counter: counter, countTo: countTo)
-                    }    .padding(.top,670)
-                }.onReceive(timer) { time in
-                    if (self.counter < self.countTo) {
-                        self.counter += 1
+                ZStack{
+                    ARViewContainer7()
+                        .ignoresSafeArea()
+                    if ispressed2{
+                        
+                        LosePopUp()
+                    }  else {
+                        VStack{
+                            ZStack{
+                                
+                                RoundedRectangle(cornerRadius: 60)
+                                    .fill(Color.black)
+                                    .opacity(0.5)
+                                    .frame(width: 350, height: 50)
+                                    .overlay(
+                                        RoundedRectangle(cornerRadius: 60).trim(from:0, to: progress())
+                                            .stroke(
+                                                style: StrokeStyle(
+                                                    lineWidth: 15,
+                                                    lineCap: .round,
+                                                    lineJoin:.round
+                                                )
+                                            )
+                                            .foregroundColor(
+                                                (completed() ? Color.red : Color.blue)
+                                            ).animation(
+                                                .linear(duration: 1)))
+                                
+                                
+                                Clock(counter: counter, countTo: countTo)
+                            }    .padding(.top,670)
+                        }
+                        
+                        .onAppear{
+                            
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 11.5){
+                                
+                                withAnimation{
+                                    self.ispressed2 = true
+                                }}
+                            
+                        }
+                        
+                        
+                        
+                        .onReceive(timer) { time in
+                            if (self.counter < self.countTo) {
+                                self.counter += 1
+                            }
+                        }
                     }
-                }
-            }
-             
+                    
+                }}
+            
+            
+            
+            
+            
+            
+            
+            
             func completed() -> Bool {
                 return progress() == 1
             }
@@ -83,6 +113,16 @@
             }
         }
  
+
+
+
+
+
+
+
+
+
+
 
 struct CircularTimer_Previews: PreviewProvider {
     static var previews: some View {
