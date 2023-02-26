@@ -11,7 +11,7 @@ import SwiftUI
 struct Familia_APP: App {
     var body: some Scene {
         WindowGroup {
-            MotherSenario()
+            SplashScreen()
         }
         
     }

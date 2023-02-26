@@ -1,8 +1,8 @@
 //
-//  CircularTimer.swift
+//  CircularTimer2.swift
 //  Outers_Game
 //
-//  Created by saba on 01/08/1444 AH.
+//  Created by Ghadah on 06/08/1444 AH.
 //
 
 import SwiftUI
@@ -10,11 +10,11 @@ import RealityKit
 import ARKit
 import Vision
 
-//        let timer = Timer
-//            .publish(every: 1, on: .main, in: .common)
-//            .autoconnect()
+        let timer = Timer
+            .publish(every: 1, on: .main, in: .common)
+            .autoconnect()
          
-        struct CircularTimer: View {
+        struct CircularTimer2: View {
             @State var ispressed2 : Bool = false
             @State var counter: Int = 0
             var countTo: Int = 10
@@ -25,7 +25,7 @@ import Vision
                     if ispressed2==false{ZStack{
                        
                     
-                        ARViewContainer8()
+                        ARViewContainer10()
                             .ignoresSafeArea()
                         VStack{
                             ZStack{
@@ -71,7 +71,7 @@ import Vision
                             }
                         }
                     }
-                    else{LosePopUp()}
+                    else{LosePopUpM()}
                     
                 }}
             
@@ -91,31 +91,31 @@ import Vision
             }
         }
          
-//        struct Clock: View {
-//            var counter: Int
-//            var countTo: Int
-//             
-//            var body: some View {
-//                VStack {
-//                    Text(counterToMinutes())
-//                        .font(.system(size: 30 , weight: .heavy, design: .rounded))
-//                        .fontWeight(.black)
-//                        .foregroundColor(.white)
-//                        .opacity(0.8)
-//                      
-//                }
-//             
-//            }
-//             
-//            func counterToMinutes() -> String {
-//                let currentTime = countTo - counter
-//                let seconds = currentTime % 60
-//                let minutes = Int(currentTime / 60)
-//                 
-//        //        return "\(minutes):\(seconds < 10 ? "0" : "")\(seconds)"
-//                return "\(seconds < 10 ? "0" : "")\(seconds)"
-//            }
-//        }
+        struct Clock: View {
+            var counter: Int
+            var countTo: Int
+             
+            var body: some View {
+                VStack {
+                    Text(counterToMinutes())
+                        .font(.system(size: 30 , weight: .heavy, design: .rounded))
+                        .fontWeight(.black)
+                        .foregroundColor(.white)
+                        .opacity(0.8)
+                      
+                }
+             
+            }
+             
+            func counterToMinutes() -> String {
+                let currentTime = countTo - counter
+                let seconds = currentTime % 60
+                let minutes = Int(currentTime / 60)
+                 
+        //        return "\(minutes):\(seconds < 10 ? "0" : "")\(seconds)"
+                return "\(seconds < 10 ? "0" : "")\(seconds)"
+            }
+        }
  
 
 
@@ -128,9 +128,9 @@ import Vision
 
 
 
-struct CircularTimer_Previews: PreviewProvider {
+struct CircularTimer2_Previews: PreviewProvider {
     static var previews: some View {
-        CircularTimer()
+        CircularTimer2()
     }
 }
 
@@ -138,18 +138,14 @@ struct CircularTimer_Previews: PreviewProvider {
 
 
 
-struct ARViewContainer8: UIViewControllerRepresentable {
-    func updateUIViewController(_ uiViewController: HandInteractionARViewController1, context: Context) {
-        
-    }
+struct ARViewContainer10: UIViewControllerRepresentable {
     
- 
   
     
 //    @State var score: Int = 0
 
-    func makeUIViewController(context: UIViewControllerRepresentableContext<ARViewContainer8>) -> HandInteractionARViewController1 {
-        let viewController = HandInteractionARViewController1()
+    func makeUIViewController(context: UIViewControllerRepresentableContext<ARViewContainer10>) -> HandInteractionARViewController2 {
+        let viewController = HandInteractionARViewController2()
         
 //        viewController.setScore = {
 //            self.score = $0
@@ -162,15 +158,15 @@ struct ARViewContainer8: UIViewControllerRepresentable {
         return viewController
     }
     
-    func updateUIViewController(_ uiViewController: HandInteractionARViewController1, context: UIViewControllerRepresentableContext<ARViewContainer8>) -> Int {
-        let viewController = HandInteractionARViewController1()
-        return viewController.score.self
+    func updateUIViewController(_ uiViewController: HandInteractionARViewController2, context: UIViewControllerRepresentableContext<ARViewContainer10>)  {
+        let viewController = HandInteractionARViewController2()
+        
     }
-    func makeCoordinator8() -> ARViewContainer8.Coordinator8 {
-        return Coordinator8()
+    func makeCoordinator10() -> ARViewContainer10.Coordinator10 {
+        return Coordinator10()
     }
     
-    class Coordinator8 {
+    class Coordinator10 {
         
     }
 }
@@ -178,13 +174,16 @@ struct ARViewContainer8: UIViewControllerRepresentable {
 
 
 
+struct MotherSenario_Previews: PreviewProvider {
+    static var previews: some View {
+        MotherSenario()
+    }
+}
 
 
+class HandInteractionARViewController2: UIViewController, ARSessionDelegate {
 
 
-class HandInteractionARViewController1: UIViewController, ARSessionDelegate {
-    
-    
     private var arView:ARView!
     // hand tab
     lazy var request:VNRequest = {
@@ -203,7 +202,6 @@ class HandInteractionARViewController1: UIViewController, ARSessionDelegate {
     var x = 0
     var y = 3
     var z = 0.0
-    var score = 0
 //    @Published var score : Int = 4
 
     var setScore: Optional<((Int) -> Void)> = nil
@@ -232,8 +230,8 @@ class HandInteractionARViewController1: UIViewController, ARSessionDelegate {
         let anchor = AnchorEntity(plane: .any)
         // Loop through and create the boxes, positioning them in a line
 //        var cards: [ModelEntity] = []
-        for i in 0..<2{
-            box = try! ModelEntity.loadModel(named: "01")
+        for i in 0..<5{
+            box = try! ModelEntity.loadModel(named: "08")
             box.generateCollisionShapes(recursive: false)
 //            box.position = [Float(i) * Float(spacing), 0, 0]
             box.position = [(Float(i)+Float(x)) * Float(spacing), Float(y) * Float(spacing), (Float(i)+Float(z)) * Float(spacing)]
@@ -292,5 +290,4 @@ class HandInteractionARViewController1: UIViewController, ARSessionDelegate {
         }
     }
 }
-
 

@@ -11,6 +11,8 @@
 		1605A28629A4F51300BD1369 /* CircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A28529A4F51300BD1369 /* CircularTimer.swift */; };
 		1605A28829A4FBE000BD1369 /* MotherSenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A28729A4FBE000BD1369 /* MotherSenario.swift */; };
 		690B9A4C29AAD95F00DCFB21 /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 690B9A4B29AAD95F00DCFB21 /* 01.usdz */; };
+		690B9A5129AB9CB100DCFB21 /* StartTimer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690B9A5029AB9CB100DCFB21 /* StartTimer2.swift */; };
+		690B9A5329AB9D4100DCFB21 /* CircularTimer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690B9A5229AB9D4100DCFB21 /* CircularTimer2.swift */; };
 		69322ABE29AA9D5800958557 /* LosePopUpM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69322ABD29AA9D5800958557 /* LosePopUpM.swift */; };
 		69322AC029AA9DDD00958557 /* WhoAreWe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69322ABF29AA9DDD00958557 /* WhoAreWe.swift */; };
 		69322AC229AA9E5900958557 /* SpalshScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69322AC129AA9E5900958557 /* SpalshScreen.swift */; };
@@ -56,6 +58,8 @@
 		1605A28529A4F51300BD1369 /* CircularTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimer.swift; sourceTree = "<group>"; };
 		1605A28729A4FBE000BD1369 /* MotherSenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherSenario.swift; sourceTree = "<group>"; };
 		690B9A4B29AAD95F00DCFB21 /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
+		690B9A5029AB9CB100DCFB21 /* StartTimer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTimer2.swift; sourceTree = "<group>"; };
+		690B9A5229AB9D4100DCFB21 /* CircularTimer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimer2.swift; sourceTree = "<group>"; };
 		69322ABD29AA9D5800958557 /* LosePopUpM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosePopUpM.swift; sourceTree = "<group>"; };
 		69322ABF29AA9DDD00958557 /* WhoAreWe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoAreWe.swift; sourceTree = "<group>"; };
 		69322AC129AA9E5900958557 /* SpalshScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpalshScreen.swift; sourceTree = "<group>"; };
@@ -111,19 +115,21 @@
 		E6CC233129928A950040BA8F = {
 			isa = PBXGroup;
 			children = (
-				1605A28729A4FBE000BD1369 /* MotherSenario.swift */,
-				1605A28529A4F51300BD1369 /* CircularTimer.swift */,
-				E658F0F629A264E500328664 /* FatherSenario.swift */,
-				69322AC129AA9E5900958557 /* SpalshScreen.swift */,
-				E65180AA29A26DED005D71F1 /* TimerView.swift */,
-				69322ABD29AA9D5800958557 /* LosePopUpM.swift */,
-				69322ABF29AA9DDD00958557 /* WhoAreWe.swift */,
-				69322AC329AA9EB600958557 /* HomePage.swift */,
-				69322AC529AA9EE900958557 /* LosePopUp.swift */,
-				E6CC236D2995189A0040BA8F /* Scinario.swift */,
-				1605A24529A2C2D100BD1369 /* StartTimer.swift */,
-				E6CC233F29928A950040BA8F /* ContentView.swift */,
 				E6CC233D29928A950040BA8F /* Familia_APP.swift */,
+				69322AC129AA9E5900958557 /* SpalshScreen.swift */,
+				69322AC329AA9EB600958557 /* HomePage.swift */,
+				69322ABF29AA9DDD00958557 /* WhoAreWe.swift */,
+				E658F0F629A264E500328664 /* FatherSenario.swift */,
+				1605A24529A2C2D100BD1369 /* StartTimer.swift */,
+				1605A28529A4F51300BD1369 /* CircularTimer.swift */,
+				69322AC529AA9EE900958557 /* LosePopUp.swift */,
+				1605A28729A4FBE000BD1369 /* MotherSenario.swift */,
+				690B9A5029AB9CB100DCFB21 /* StartTimer2.swift */,
+				690B9A5229AB9D4100DCFB21 /* CircularTimer2.swift */,
+				69322ABD29AA9D5800958557 /* LosePopUpM.swift */,
+				E65180AA29A26DED005D71F1 /* TimerView.swift */,
+				E6CC236D2995189A0040BA8F /* Scinario.swift */,
+				E6CC233F29928A950040BA8F /* ContentView.swift */,
 				E658F0F429A2647F00328664 /* Coaching4Levels.swift */,
 				69322AC729AAAA1600958557 /* 08.usdz */,
 				690B9A4B29AAD95F00DCFB21 /* 01.usdz */,
@@ -324,6 +330,7 @@
 				E658F0E729A2219C00328664 /* LevelTwo.swift in Sources */,
 				1605A24629A2C2D100BD1369 /* StartTimer.swift in Sources */,
 				E658F0F529A2647F00328664 /* Coaching4Levels.swift in Sources */,
+				690B9A5329AB9D4100DCFB21 /* CircularTimer2.swift in Sources */,
 				E6CC236E2995189A0040BA8F /* Scinario.swift in Sources */,
 				E6CC2370299518F50040BA8F /* dumu.rcproject in Sources */,
 				69322AC629AA9EE900958557 /* LosePopUp.swift in Sources */,
@@ -331,6 +338,7 @@
 				69322AC029AA9DDD00958557 /* WhoAreWe.swift in Sources */,
 				69322ABE29AA9D5800958557 /* LosePopUpM.swift in Sources */,
 				E65180AB29A26DED005D71F1 /* TimerView.swift in Sources */,
+				690B9A5129AB9CB100DCFB21 /* StartTimer2.swift in Sources */,
 				69322AC429AA9EB600958557 /* HomePage.swift in Sources */,
 				E658F0F729A264E500328664 /* FatherSenario.swift in Sources */,
 			);

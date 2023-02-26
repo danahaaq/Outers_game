@@ -16,7 +16,7 @@ var body: some View {
             .ignoresSafeArea()
         if ispressed2{
             
-            Coaching4Levels()
+            FatherSenario()
         }  else{
             
             ZStack{
@@ -97,7 +97,7 @@ isQuit = true
                             }
                         }
                     }.padding(.top,400)
-                        .fullScreenCover(isPresented: $isQuit, content: HomePage.init)
+                        .fullScreenCover(isPresented: $isQuit, content: MotherSenario.init)
                 }
             }
             
