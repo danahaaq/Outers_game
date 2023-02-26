@@ -10,12 +10,14 @@
 		1605A24629A2C2D100BD1369 /* StartTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A24529A2C2D100BD1369 /* StartTimer.swift */; };
 		1605A28629A4F51300BD1369 /* CircularTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A28529A4F51300BD1369 /* CircularTimer.swift */; };
 		1605A28829A4FBE000BD1369 /* MotherSenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1605A28729A4FBE000BD1369 /* MotherSenario.swift */; };
-		16B8DB4B29A9333E001A1754 /* LosePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB4A29A9333E001A1754 /* LosePopUp.swift */; };
-		16B8DB4D29A94DA1001A1754 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB4C29A94DA1001A1754 /* HomePage.swift */; };
-		16B8DB4F29A94E82001A1754 /* SoundCodeFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB4E29A94E82001A1754 /* SoundCodeFile.swift */; };
-		16B8DB5129A94F32001A1754 /* SpalshScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB5029A94F32001A1754 /* SpalshScreen.swift */; };
-		16B8DB5329A98416001A1754 /* WhoAreWe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB5229A98416001A1754 /* WhoAreWe.swift */; };
-		16B8DB5529A9965C001A1754 /* LosePopUpM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8DB5429A9965C001A1754 /* LosePopUpM.swift */; };
+		690B9A4C29AAD95F00DCFB21 /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 690B9A4B29AAD95F00DCFB21 /* 01.usdz */; };
+		69322ABE29AA9D5800958557 /* LosePopUpM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69322ABD29AA9D5800958557 /* LosePopUpM.swift */; };
+		69322AC029AA9DDD00958557 /* WhoAreWe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69322ABF29AA9DDD00958557 /* WhoAreWe.swift */; };
+		69322AC229AA9E5900958557 /* SpalshScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69322AC129AA9E5900958557 /* SpalshScreen.swift */; };
+		69322AC429AA9EB600958557 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69322AC329AA9EB600958557 /* HomePage.swift */; };
+		69322AC629AA9EE900958557 /* LosePopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69322AC529AA9EE900958557 /* LosePopUp.swift */; };
+		69322AC829AAAA1600958557 /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 69322AC729AAAA1600958557 /* 08.usdz */; };
+		69322ACA29AAC9BD00958557 /* Key1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 69322AC929AAC9BD00958557 /* Key1.rcproject */; };
 		E65180AB29A26DED005D71F1 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65180AA29A26DED005D71F1 /* TimerView.swift */; };
 		E658F0E729A2219C00328664 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0E629A2219C00328664 /* LevelTwo.swift */; };
 		E658F0F529A2647F00328664 /* Coaching4Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F0F429A2647F00328664 /* Coaching4Levels.swift */; };
@@ -53,12 +55,14 @@
 		1605A24529A2C2D100BD1369 /* StartTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTimer.swift; sourceTree = "<group>"; };
 		1605A28529A4F51300BD1369 /* CircularTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimer.swift; sourceTree = "<group>"; };
 		1605A28729A4FBE000BD1369 /* MotherSenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherSenario.swift; sourceTree = "<group>"; };
-		16B8DB4A29A9333E001A1754 /* LosePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LosePopUp.swift; path = ../../Downloads/Outers_game/LosePopUp.swift; sourceTree = "<group>"; };
-		16B8DB4C29A94DA1001A1754 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePage.swift; path = ../../Downloads/Outers_game/HomePage.swift; sourceTree = "<group>"; };
-		16B8DB4E29A94E82001A1754 /* SoundCodeFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundCodeFile.swift; path = ../../Downloads/Outers_game/SoundCodeFile.swift; sourceTree = "<group>"; };
-		16B8DB5029A94F32001A1754 /* SpalshScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpalshScreen.swift; path = ../../Downloads/Outers_game/SpalshScreen.swift; sourceTree = "<group>"; };
-		16B8DB5229A98416001A1754 /* WhoAreWe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WhoAreWe.swift; path = ../../Downloads/Outers_game/WhoAreWe.swift; sourceTree = "<group>"; };
-		16B8DB5429A9965C001A1754 /* LosePopUpM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LosePopUpM.swift; path = ../../Downloads/Outers_game/LosePopUpM.swift; sourceTree = "<group>"; };
+		690B9A4B29AAD95F00DCFB21 /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
+		69322ABD29AA9D5800958557 /* LosePopUpM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosePopUpM.swift; sourceTree = "<group>"; };
+		69322ABF29AA9DDD00958557 /* WhoAreWe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoAreWe.swift; sourceTree = "<group>"; };
+		69322AC129AA9E5900958557 /* SpalshScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpalshScreen.swift; sourceTree = "<group>"; };
+		69322AC329AA9EB600958557 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		69322AC529AA9EE900958557 /* LosePopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosePopUp.swift; sourceTree = "<group>"; };
+		69322AC729AAAA1600958557 /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
+		69322AC929AAC9BD00958557 /* Key1.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Key1.rcproject; path = "/Users/ghadah/Desktop/A/new flow/Key1.rcproject"; sourceTree = "<absolute>"; };
 		E65180AA29A26DED005D71F1 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		E658F0E629A2219C00328664 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
 		E658F0F429A2647F00328664 /* Coaching4Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coaching4Levels.swift; sourceTree = "<group>"; };
@@ -107,21 +111,23 @@
 		E6CC233129928A950040BA8F = {
 			isa = PBXGroup;
 			children = (
-				16B8DB5429A9965C001A1754 /* LosePopUpM.swift */,
-				16B8DB5229A98416001A1754 /* WhoAreWe.swift */,
-				16B8DB5029A94F32001A1754 /* SpalshScreen.swift */,
-				16B8DB4C29A94DA1001A1754 /* HomePage.swift */,
-				16B8DB4E29A94E82001A1754 /* SoundCodeFile.swift */,
-				16B8DB4A29A9333E001A1754 /* LosePopUp.swift */,
 				1605A28729A4FBE000BD1369 /* MotherSenario.swift */,
 				1605A28529A4F51300BD1369 /* CircularTimer.swift */,
 				E658F0F629A264E500328664 /* FatherSenario.swift */,
+				69322AC129AA9E5900958557 /* SpalshScreen.swift */,
 				E65180AA29A26DED005D71F1 /* TimerView.swift */,
+				69322ABD29AA9D5800958557 /* LosePopUpM.swift */,
+				69322ABF29AA9DDD00958557 /* WhoAreWe.swift */,
+				69322AC329AA9EB600958557 /* HomePage.swift */,
+				69322AC529AA9EE900958557 /* LosePopUp.swift */,
 				E6CC236D2995189A0040BA8F /* Scinario.swift */,
 				1605A24529A2C2D100BD1369 /* StartTimer.swift */,
 				E6CC233F29928A950040BA8F /* ContentView.swift */,
 				E6CC233D29928A950040BA8F /* Familia_APP.swift */,
 				E658F0F429A2647F00328664 /* Coaching4Levels.swift */,
+				69322AC729AAAA1600958557 /* 08.usdz */,
+				690B9A4B29AAD95F00DCFB21 /* 01.usdz */,
+				69322AC929AAC9BD00958557 /* Key1.rcproject */,
 				E6CC237D299531B20040BA8F /* RussoOne-Regular.ttf */,
 				E6CC234129928A970040BA8F /* Assets.xcassets */,
 				E6CC233C29928A950040BA8F /* Outers_Game */,
@@ -282,8 +288,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6CC234529928A970040BA8F /* Preview Assets.xcassets in Resources */,
+				690B9A4C29AAD95F00DCFB21 /* 01.usdz in Resources */,
 				E6CC237E299531B20040BA8F /* RussoOne-Regular.ttf in Resources */,
 				E6CC234229928A970040BA8F /* Assets.xcassets in Resources */,
+				69322AC829AAAA1600958557 /* 08.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,22 +316,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69322AC229AA9E5900958557 /* SpalshScreen.swift in Sources */,
+				69322ACA29AAC9BD00958557 /* Key1.rcproject in Sources */,
 				E6CC234029928A950040BA8F /* ContentView.swift in Sources */,
 				E6CC233E29928A950040BA8F /* Familia_APP.swift in Sources */,
 				1605A28629A4F51300BD1369 /* CircularTimer.swift in Sources */,
 				E658F0E729A2219C00328664 /* LevelTwo.swift in Sources */,
-				16B8DB5529A9965C001A1754 /* LosePopUpM.swift in Sources */,
 				1605A24629A2C2D100BD1369 /* StartTimer.swift in Sources */,
 				E658F0F529A2647F00328664 /* Coaching4Levels.swift in Sources */,
-				16B8DB4D29A94DA1001A1754 /* HomePage.swift in Sources */,
 				E6CC236E2995189A0040BA8F /* Scinario.swift in Sources */,
 				E6CC2370299518F50040BA8F /* dumu.rcproject in Sources */,
+				69322AC629AA9EE900958557 /* LosePopUp.swift in Sources */,
 				1605A28829A4FBE000BD1369 /* MotherSenario.swift in Sources */,
-				16B8DB5129A94F32001A1754 /* SpalshScreen.swift in Sources */,
-				16B8DB5329A98416001A1754 /* WhoAreWe.swift in Sources */,
-				16B8DB4F29A94E82001A1754 /* SoundCodeFile.swift in Sources */,
-				16B8DB4B29A9333E001A1754 /* LosePopUp.swift in Sources */,
+				69322AC029AA9DDD00958557 /* WhoAreWe.swift in Sources */,
+				69322ABE29AA9D5800958557 /* LosePopUpM.swift in Sources */,
 				E65180AB29A26DED005D71F1 /* TimerView.swift in Sources */,
+				69322AC429AA9EB600958557 /* HomePage.swift in Sources */,
 				E658F0F729A264E500328664 /* FatherSenario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Outers_Game/Preview Content\"";
-				DEVELOPMENT_TEAM = UNY43L6L35;
+				DEVELOPMENT_TEAM = G8N3G9X84V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Outers-Game-Info.plist";
@@ -491,8 +499,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,7 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Outers_Game/Preview Content\"";
-				DEVELOPMENT_TEAM = UNY43L6L35;
+				DEVELOPMENT_TEAM = G8N3G9X84V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Outers-Game-Info.plist";
@@ -523,8 +531,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

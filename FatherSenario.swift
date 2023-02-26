@@ -25,13 +25,14 @@ struct FatherSenario : View {
     
     var body: some View{
         ZStack{
-            ARViewContainer7()
-                .ignoresSafeArea()
+           
             if ispressed2{
-                
+//                CircularTimer()
                 StartTimer()
             }  else {
                 ZStack{
+                    ARViewContainer7()
+                        .ignoresSafeArea()
                     Rectangle()
                         .frame(width: 280,height: 300)
                         .foregroundColor(.white)
@@ -45,14 +46,14 @@ struct FatherSenario : View {
                     VStack{
                         FadeInOutView(text: "Could you Help Me Find", startTime: 0.1)
                             .offset(y:-88)
-                        FadeInOutView(text: "My KEY ?", startTime: 1.5)
+                        FadeInOutView(text: "My Shoes ?", startTime: 1.5)
                             .offset(y:-85)
 //                            .frame(width: 300,height: 100)
                            
                         FadeInOutView(text: "I'm Running Late To work!", startTime: 2.5)
                             .offset(y:-80)
                            
-                        FadeInOutView1(text: "⚠️ Be Fast it dispears ⚠️", startTime: 4.0)
+                        FadeInOutView1(text: "⚠️ Be Fast and touch it ⚠️", startTime: 4.0)
                             .offset(y:-77)
                             //here comment
 //                        ZStack{

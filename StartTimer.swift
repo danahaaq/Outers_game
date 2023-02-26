@@ -23,12 +23,13 @@ struct StartTimer: View {
     
     var body: some View {
         ZStack{
-            ARViewContainer7()
-                .ignoresSafeArea()
+            
             if isActive {
                 CircularTimer()
             }  else {
                 ZStack{
+                    ARViewContainer7()
+                        .ignoresSafeArea()
                     
                         Rectangle()
                             .fill(.black)

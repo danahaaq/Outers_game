@@ -14,7 +14,9 @@ struct ARViewContainer2: UIViewRepresentable {
     func makeUIView(context: Context) -> UIView {
         let arView = ARView(frame: .zero)
 //                 Load the "Opject" scene from the "dumu" Reality File
-        let anchor = try! Dumu.loadScene()
+        let anchor = try! Key1.loadScene()
+        
+        
 //                 Add the Opject anchor to the scene
         arView.scene.anchors.append(anchor)
         return arView
